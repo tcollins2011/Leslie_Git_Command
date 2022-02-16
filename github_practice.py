@@ -8,4 +8,9 @@ class Test:
 
 x = Test()
 
+z = Test()
+z.test()
+z.test()
+z.test()
+z.test()
 x.test()
