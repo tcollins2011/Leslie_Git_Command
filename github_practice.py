@@ -12,6 +12,11 @@ class Product():
         print('I made a product')
 
 
+class Talapas():
+
+    def where_am_i(self):
+        print("I'm on Talapas")
+
 x = Test()
 y = Test()
 
