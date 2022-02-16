@@ -6,15 +6,26 @@ class Test:
         print ('hi')
 
 
-x = Test()
+class Product():
 
+    def make_product(self):
+        print('I made a product')
+
+
+x = Test()
 y = Test()
 
 x.test()
 y.test()
+
 z = Test()
+
 z.test()
 z.test()
 z.test()
 z.test()
 x.test()
+
+t = Product()
+
+t.make_product()
